@@ -1,0 +1,17 @@
+//Stats
+Name;;Health;440;Xp;35;Lvl;1;Evolution;2;Cooldown;0;Power;15.899999999999997;Defense;1.9000000000000008;Accuracy;11.9;Fainted;false;fileName;Charmander
+//Moves
+1;69;2;95;3;63;6;60
+
+//Outline
+Name Health Xp Lvl Evolution Cooldown Power Defense Accuracy Fainted FileName
+move1 move1PP move2 move2PP move3 move3PP move4 move4PP
+
+//Genetic Strings
+B_Type;Fire;R_Type;Fire;Gender;Male;R_Gender;Male;Resistance;Earth;R_Resistance;Earth
+//Genetic Stats
+B_Power;6;R_Power;3;B_Accuracy;2;R_Accuracy;2;B_Defence;1;R_Defence;1
+
+//Outline
+B_Type R_Type Gender R_Gender Resistance R_Resistance
+B_Power R_power B_Accuracy R_Accuracy B_Defence R_Defence

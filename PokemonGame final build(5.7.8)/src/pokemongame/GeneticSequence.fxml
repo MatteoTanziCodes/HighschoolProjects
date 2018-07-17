@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="pane-window" stylesheets="@Home.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokemongame.GeneticSequenceController">
+   <children>
+      <Text layoutX="176.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title-text" text="Genetics" />
+      <Button fx:id="btn_Mom" layoutX="58.0" layoutY="128.0" mnemonicParsing="false" onAction="#setMom" prefHeight="39.0" prefWidth="97.0" styleClass="box-face" stylesheets="@PokemonGame.css" text="Set Mom" />
+      <Label fx:id="lbl_Mom" layoutX="411.0" layoutY="128.0" prefHeight="39.0" prefWidth="159.0" styleClass="font-face" stylesheets="@Home.css" text="Mom Name" />
+      <Label fx:id="lbl_Dad" layoutX="411.0" layoutY="188.0" prefHeight="39.0" prefWidth="209.0" styleClass="font-face" stylesheets="@Home.css" text="Dad Name" />
+      <Button fx:id="btn_Dad" layoutX="58.0" layoutY="188.0" mnemonicParsing="false" onAction="#setDad" prefHeight="39.0" prefWidth="97.0" styleClass="box-face" stylesheets="@PokemonGame.css" text="Set Dad" />
+      <Button fx:id="btn_Create" layoutX="413.0" layoutY="307.0" mnemonicParsing="false" onAction="#geneticSequence" prefHeight="39.0" prefWidth="83.0" styleClass="box-face" stylesheets="@PokemonGame.css" text="Breed" />
+      <Label fx:id="lbl_Child" alignment="CENTER" layoutX="51.0" layoutY="247.0" prefHeight="39.0" prefWidth="112.0" styleClass="font-face" stylesheets="@Home.css" text="Child Name" />
+      <TextField fx:id="txt_Child" layoutX="213.0" layoutY="254.0" prefHeight="25.0" prefWidth="150.0" promptText="Enter Childs Name" styleClass="box-face" stylesheets="@Home.css" />
+      <ComboBox fx:id="box_Female" layoutX="213.0" layoutY="135.0" prefHeight="25.0" prefWidth="150.0" promptText="Mother" styleClass="box-face" stylesheets="@PokemonGame.css" />
+      <ComboBox fx:id="box_Male" layoutX="213.0" layoutY="189.0" prefHeight="25.0" prefWidth="150.0" promptText="Father" styleClass="box-face" stylesheets="@PokemonGame.css" />
+      <Button fx:id="btn_Child" layoutX="411.0" layoutY="254.0" mnemonicParsing="false" onAction="#setChild" prefHeight="25.0" prefWidth="86.0" styleClass="box-face" stylesheets="@PokemonGame.css" text="Set Child" />
+      <Button fx:id="btn_Box" layoutX="58.0" layoutY="322.0" mnemonicParsing="false" onAction="#setBox" prefHeight="25.0" prefWidth="64.0" styleClass="box-face" stylesheets="@PokemonGame.css" />
+      <Text fx:id="msg_Text" layoutX="155.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="font-face" wrappingWidth="224.0" />
+      <Button fx:id="btn_Back" layoutX="507.0" layoutY="345.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="49.0" styleClass="box-face" stylesheets="@PokemonGame.css" text="Exit" />
+   </children>
+</AnchorPane>

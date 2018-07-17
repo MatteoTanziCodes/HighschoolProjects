@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="Anchor-Pane3" stylesheets="@PokemonGame.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokemongame.LvlSelectController">
+   <children>
+      <Text layoutX="77.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title-text" text="Level Selection" />
+      <AnchorPane layoutX="75.0" layoutY="132.0">
+         <children>
+            <ComboBox fx:id="party_Box" prefHeight="27.0" prefWidth="163.0" styleClass="box-face" stylesheets="@PokemonGame.css" />
+         </children>
+      </AnchorPane>
+      <ComboBox fx:id="enemy_Box" layoutX="350.0" layoutY="132.0" prefHeight="24.0" prefWidth="179.0" styleClass="box-face" stylesheets="@PokemonGame.css" />
+      <Label layoutX="75.0" layoutY="173.0" prefHeight="27.0" prefWidth="163.0" style="-fx-text-fill: #FFFFFF; -fx-font-size: 9;" styleClass="font-face" stylesheets="@PokemonGame.css" text="Select you pokmon" />
+      <Label layoutX="350.0" layoutY="171.0" prefHeight="27.0" prefWidth="192.0" style="-fx-text-fill: #FFFFFF; -fx-font-size: 9px;" styleClass="font-face" stylesheets="@PokemonGame.css" text="Select your opponent" />
+      <Text fx:id="pokemon_txt" layoutX="69.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="font-face" wrappingWidth="163.0" />
+      <Text fx:id="enemy_txt" layoutX="350.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="font-face" wrappingWidth="179.0" />
+      <Text layoutX="288.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="font-face" text="Vs" wrappingWidth="24.0" />
+      <Button fx:id="back_btn" layoutX="496.0" layoutY="354.0" mnemonicParsing="false" onAction="#back" styleClass="box-face" stylesheets="@PokemonGame.css" text="Exit" />
+      <Button fx:id="start_btn" layoutX="363.0" layoutY="299.0" mnemonicParsing="false" opacity="0.0" prefHeight="39.0" prefWidth="179.0" styleClass="box-face" stylesheets="@PokemonGame.css" text="Start" />
+      <Text fx:id="msg" layoutX="273.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="129.0" />
+      <Button fx:id="set_btn" layoutX="67.0" layoutY="299.0" mnemonicParsing="false" onAction="#set" prefHeight="39.0" prefWidth="179.0" styleClass="box-face" stylesheets="@PokemonGame.css" text="Set" />
+      <Button fx:id="btn_Lvl" layoutX="249.0" layoutY="126.0" mnemonicParsing="false" onAction="#box" prefHeight="39.0" prefWidth="92.0" styleClass="box-face" stylesheets="@PokemonGame.css" text="Enemies" />
+   </children>
+</AnchorPane>

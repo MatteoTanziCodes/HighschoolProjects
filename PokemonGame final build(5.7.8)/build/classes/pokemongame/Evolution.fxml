@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="Anchor-Pane2" stylesheets="@PokemonGame.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokemongame.EvolutionController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+               <bottom>
+                  <AnchorPane prefHeight="107.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="submit_button" layoutX="289.0" layoutY="14.0" mnemonicParsing="false" onAction="#savePoke" prefHeight="25.0" prefWidth="235.0" text="Click to Evolve" />
+                        <Label fx:id="info" layoutX="37.0" layoutY="18.0" prefHeight="17.0" prefWidth="263.0" style="-fx-font-size: 7px; -fx-text-fill: #FFFFFF;" styleClass="font-face" stylesheets="@PokemonGame.css" text="Your PokeMon has not evolved...yet" />
+                        <Button layoutX="489.0" layoutY="54.0" mnemonicParsing="false" onAction="#back" text="Exit" />
+                     </children>
+                  </AnchorPane>
+               </bottom>
+               <center>
+                  <GridPane prefHeight="175.0" prefWidth="480.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label style="-fx-text-fill: #FFFFFF;" styleClass="font-face" stylesheets="@PokemonGame.css" text="PokeMon Name:" />
+                        <Label style="-fx-text-fill: #FFFFFF;" styleClass="font-face" stylesheets="@PokemonGame.css" text="New PokeMon Name:" GridPane.rowIndex="3" />
+                        <TextField fx:id="evol_textfield" promptText="New PokeMon Name" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label style="-fx-text-fill: #FFFFFF;" styleClass="font-face" stylesheets="@PokemonGame.css" text="New Move:" GridPane.rowIndex="2" />
+                        <ComboBox fx:id="evol_comboBox" prefHeight="25.0" prefWidth="300.0" promptText="Evolving PokeMon" GridPane.columnIndex="1" />
+                        <ComboBox fx:id="evol_comboBox3" prefHeight="25.0" prefWidth="270.0" promptText="Set a New Move" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label style="-fx-text-fill: #FFFFFF; -fx-font-size: 9px;" styleClass="font-face" stylesheets="@PokemonGame.css" text="Move you're replacing:" GridPane.rowIndex="1" />
+                        <ComboBox fx:id="evol_comboBox2" prefHeight="25.0" prefWidth="266.0" promptText="Move Being Replaced" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+               </center>
+               <left>
+                  <AnchorPane prefHeight="219.0" prefWidth="56.0" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <AnchorPane prefHeight="226.0" prefWidth="78.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#setPoke" prefHeight="23.0" prefWidth="38.0" text="Set" />
+                     </children></AnchorPane>
+               </right>
+               <top>
+                  <AnchorPane prefHeight="98.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label layoutX="163.0" layoutY="-22.0" styleClass="title-text" stylesheets="@PokemonGame.css" text="Evolution">
+                           <font>
+                              <Font size="52.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </top>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,4 @@
+Ms.Grightmire:
+
+0 Please account for the slow loading times of the pages when clicking the buttons when running for the first time
+0 Also, please download the fonts found in the resources folder before running the program

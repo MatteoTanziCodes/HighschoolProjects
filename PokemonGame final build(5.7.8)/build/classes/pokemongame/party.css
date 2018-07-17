@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Jan-2018, 1:14:58 AM
+    Author     : annettetanzi
+*/
+.root{
+    
+    
+}
+.background-screen{
+    
+   -fx-background-image: url('https://res.cloudinary.com/lmn/image/upload/e_sharpen:150,f_auto,fl_lossy,q_80/v1/gameskinnyc/i/m/a/image-1576a.png');
+   -fx-background-repeat: stretch;   
+   -fx-background-position: bottom right;
+  
+
+}
+.title-text{
+   -fx-text-fill: #ffffff;
+   -fx-font-size: 45pt;
+   -fx-font-family: "Pokemon Solid", sans-serif;
+   -fx-stroke-width: 8px;
+   -fx-stroke: #ffffff; 
+    
+}
+.box-face{
+    -fx-font-family: "Pokemon GB" , sans-serif;
+    -fx-font-size: 6pt;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+    
+}
+.font-face {
+  -fx-font-family: "Pokemon GB", sans-serif;
+  -fx-font-size: 9px;
+  -fx-text-fill:#ffffff;
+}

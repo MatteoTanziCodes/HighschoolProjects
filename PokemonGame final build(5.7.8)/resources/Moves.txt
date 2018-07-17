@@ -1,0 +1,23 @@
+Name Type Damage PP Text
+Flame Thrower;fire;80;10;0.9;Spat fire
+Fire Ball;fire;85;15;1.10;Threw a fire ball
+Over Heat;fire;79;5;0.90;Over heated
+Burn Out;fire;70;5;1.0;Set themselves on fire
+Inferno;fire;90;10;0.9;Set the area ablaze
+SolarBeam;fire;100;15;1.10;Blased a ray of light
+Blaze Ripper;fire;400;1;5;Rained fire
+Ash;fire;70;20;0;Threw burning ash
+Water Jet;water;80;10;1.0;blasted water
+Bubble Beam;water;65;15;1.0;Bubbles were launched
+Water Whip;water;70;10;0.9;threw water
+Tidle Waver;water;80;5;1.1;A wave was created
+Surf;water;80;10;1.0;Rad Bro!!!
+Tusnami;water;500;2;10.0;Waves came crashing down
+Water smash;water;100;10;2.9;Blasted water
+Ice shock;water;90;5;0.3;Forze the world 
+Smash;earth;80;10;1.0;SAMSHHH!!!
+Plus Ultra;earth;100;5;2.00;TO GO FURTHER BEYOND
+Earth Quake;earth;90;5;1.0;The ground shakes
+Boulder;earth;400;2;10;The boulder is pleased!!!
+Grounded;earth;100;5;2.00;Rocks rain from the sky
+Mud Slide;earth;70;20;0.1;No one is safe

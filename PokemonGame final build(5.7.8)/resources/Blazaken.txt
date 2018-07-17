@@ -1,0 +1,17 @@
+//Stats
+Name;Blaziken;Health;450;Xp;0;Lvl;0;Evolution;0;Cooldown;0;Power;5;Defense;5;Accuracy;5;Fainted;false;FileName;Blaziken
+//Moves
+4;2000;5;2000;6;5;7;2000
+
+//Outline
+Name Health Xp Lvl Evolution Cooldown Power Defense Accuracy Fainter FileName
+move1 movePP1 move2 movePP2 move3 movePP3 move4 movePP4
+
+//Genetic Strings
+B_Type;Fire;R_Type;Fire;Gender;Male;R_Gender;Male;Resistance;Earth;R_Resistance;Earth
+//Genetic Stats
+B_Power;6;R_Power;6;B_Accuracy;6;R_Accuracy;6;B_Defence;6;R_Defence;6
+
+//Outline
+B_Type R_Type Gender R_Gender Resistance R_Resistance
+B_Power R_power B_Accuracy R_Accuracy B_Defence R_Defence

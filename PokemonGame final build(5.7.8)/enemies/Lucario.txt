@@ -1,0 +1,17 @@
+//Stats
+Name;Lucario;Health;300;Xp;17;Lvl;100;Evolution;0;Cooldown;0;Power;10;Defense;5;Accuracy;10;Fainted;false;fileName;Lucario
+//Moves
+0;100;8;100;9;100;10;100
+
+//Outline
+Name Health Xp Lvl Evolution Cooldown Power Defense Accuracy Fainted FileName
+move1 move1PP move2 move2PP move3 move3PP move4 move4PP
+
+//Genetic Strings
+B_Type;Fire;R_Type;Fire;Gender;Male;R_Gender;Male;Resistance;Earth;R_Resistance;Earth
+//Genetic Stats
+B_Power;8;R_Power;8;B_Accuracy;20;R_Accuracy;20;B_Defence;4;R_Defence;4
+
+//Outline
+B_Type R_Type Gender R_Gender Resistance R_Resistance
+B_Power R_power B_Accuracy R_Accuracy B_Defence R_Defence

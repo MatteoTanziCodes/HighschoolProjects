@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Jan-2018, 11:48:45 AM
+    Author     : 386186324
+*/
+
+.root{
+    
+   
+}
+.title-text{
+   -fx-text-fill: #ffffff;
+   -fx-font-size: 45pt;
+   -fx-font-family: "Pokemon Solid", sans-serif;
+   -fx-stroke-width: 8px;
+   -fx-stroke: #ffffff; 
+    
+}
+.button-1{
+    
+    -fx-background-color: #ff3333;
+    -fx-background-radius: 70%;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 70%;
+    -fx-border-width: 4px;
+    -fx-font-family: "Pokemon GB" , sans-serif;
+    -fx-font-size: 6pt;
+    
+}
+.button-2{
+    -fx-background-color: #ffff00;
+    -fx-background-radius: 70%;
+    -fx-border-color: #000000;
+    -fx-border-radius: 70%;
+    -fx-border-width: 4px;
+    -fx-font-family: "Pokemon GB" , sans-serif;
+    -fx-font-size: 6pt;
+    
+}
+.button-3{
+    -fx-background-color: #006600;
+    -fx-background-radius: 70%;
+    -fx-border-color: #000000;
+    -fx-border-radius: 70%;
+    -fx-border-width: 4px;
+    -fx-font-family: "Pokemon GB" , sans-serif;
+    -fx-font-size: 6pt;
+    
+}
+.button-4{
+    -fx-background-color: #0066cc;
+    -fx-background-radius: 70%;
+    -fx-border-color: #000000;
+    -fx-border-radius: 70%;
+    -fx-border-width: 4px;
+    -fx-font-family: "Pokemon GB" , sans-serif;
+    -fx-font-size: 6pt;
+    
+}
+.Anchor-Pane{
+   -fx-background-image: url('http://img40.imageshack.us/img40/9782/110311fsun.jpg');
+   -fx-background-repeat: stretch;   
+   -fx-background-position: center center;
+
+}
+.Anchor-Pane2{
+   -fx-background-image: url('https://phandroid.s3.amazonaws.com/wp-content/uploads/2016/06/pure-black-wallpaper-high-resolution-4K.jpg');
+   -fx-background-repeat: stretch;   
+   -fx-background-position: center center;
+    
+}
+.Anchor-Pane3{
+   -fx-background-image: url('http://orig15.deviantart.net/ae51/f/2014/340/5/e/or_as_vs_wally_final_battle_background_by_phoenixoflight92-d88wyk1.png');
+   -fx-background-repeat: stretch;   
+   -fx-background-position: center center;
+  
+}
+
+.font-face {
+  -fx-font-family: "Pokemon GB", sans-serif;
+  -fx-font-size: 9px;
+  
+}
+.box-face{
+    -fx-font-family: "Pokemon GB" , sans-serif;
+    -fx-font-size: 6pt;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+    
+}
+
+
+
+
+
+

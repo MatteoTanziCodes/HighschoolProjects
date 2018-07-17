@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="368.0" prefWidth="482.0" styleClass="background-screen" stylesheets="@party.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokemongame.PartyController">
+   <children>
+      <ComboBox fx:id="box_Prty" layoutX="54.0" layoutY="131.0" prefHeight="33.0" prefWidth="150.0" styleClass="box-face" />
+      <Button layoutX="54.0" layoutY="260.0" mnemonicParsing="false" onAction="#Remove" prefHeight="19.0" prefWidth="78.0" styleClass="box-face" text="Remove" />
+      <Button layoutX="54.0" layoutY="221.0" mnemonicParsing="false" onAction="#Add" prefHeight="0.0" prefWidth="78.0" styleClass="box-face" text="Add" />
+      <Label layoutX="54.0" layoutY="169.0" styleClass="font-face" text="Party" />
+      <Label layoutX="252.0" layoutY="169.0" styleClass="font-face" text="Box" />
+      <Button layoutX="404.0" layoutY="318.0" mnemonicParsing="false" onAction="#Back" styleClass="box-face" text="Exit" />
+      <Button layoutX="54.0" layoutY="318.0" mnemonicParsing="false" onAction="#BoxSwitch" prefHeight="19.0" prefWidth="78.0" styleClass="box-face" text="box" />
+      <Button layoutX="411.0" layoutY="131.0" mnemonicParsing="false" onAction="#Set" prefHeight="33.0" prefWidth="38.0" styleClass="box-face" text="Set" />
+      <Text fx:id="txt_Msg" layoutX="252.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="font-face" text="Text" wrappingWidth="176.0" />
+      <Text fx:id="txt_Prty" layoutX="116.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="font-face" text="Pokemon" wrappingWidth="78.0" />
+      <Text fx:id="txt_Pokemon" layoutX="301.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="font-face" text="Pokemon" wrappingWidth="78.0" />
+      <ComboBox fx:id="box_Box" layoutX="252.0" layoutY="131.0" prefHeight="33.0" prefWidth="150.0" styleClass="box-face" />
+      <Button layoutX="209.0" layoutY="131.0" mnemonicParsing="false" onAction="#Set" prefHeight="33.0" prefWidth="38.0" styleClass="box-face" text="Set" />
+      <Text layoutX="155.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title-text" text="Party" />
+   </children>
+</AnchorPane>

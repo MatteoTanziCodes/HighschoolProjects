@@ -1,0 +1,117 @@
+
+***************************Older Version 1.0.0**********************************
+Methods Changed by Zain
+Pokemon - fixed bugs and added methods for moves
+
+Files Maniplulated by Zain
+*updated pokemon file 
+
+
+***************************Older Version: 1.0.1********************************
+Methods Changed by John
+
+battleController - Completed mechanics - only work in console   
+Moves - added accuracy variable
+PokemonGameController - added global moves List
+
+Files Manipulated by John
+*updated moves file
+*Created Enemys folder
+
+****************************Older Version: 2.0.1*******************************
+Methods Changed by Zain
+GeneticSequenceController- Updated variable names - added comments
+pokemon - Fixed bug with breeding system - added variables to the breeding system
+
+Files Changed by Zain
+pokemon files - added two more variables too outline - removed .txt from fileName
+
+FXML Documents Changed by Zain
+GeneticSequence.fxml - updated field id's for buttons and text
+
+****************************Version 2.0.3**************************************
+Methods Changed by John
+BattleModeController - Fixed bugs and lessened code - only work in console
+0 new PP Verifier Mechanic
+0 updated level chooser to be modular
+	0 very easy to add an enemy Pokemon
+	0 lessened code
+* new code is commented with the text "**NEW" followed by comment
+
+Files Changed by John
+eneymes folder changed to enemies (zain cant spell)
+charmandergen3 changed to Blaziken
+*****************************Version 2.0.4*************************************
+Bugs
+if the enemy pokemon misses it ends the battle, and does not let you choose an option
+Newer Version: 1.0.4
+Methods Manipulated by John
+BattleModeController - two bugs left and code lessened - only work in console
+0 Accuracy mechanic is modified
+0 Started assigning scene objects to code
+0 added xp mechanic 
+0 changed variable names for easier understanding
+
+*****************************Version 2.0.5*************************************
+Methods Manipulated by John
+BattleModeController - only work in console
+0 fixed all known bugs involving controller
+
+Files Changed By John
+enemies folder now has more than 5 cpu pokemon to battle with
+
+*****************************Version 2.1.5*************************************
+Methods Change by Matteo
+EvolutionControler - got evolution system to work and update moves
+
+FXML Changed by Matteo
+Evolution.fxml - added more buttons and design 
+
+*****************************Version 3.2.6**************************************
+Entire game changed...
+
+Bugs:
+- Save system doesnt function correctly
+- Battle Mode unfinished
+- Load function tweaking
+- Breeding bug
+
+****************************Version 3.3.6*****************************************
+Major Changes to game
+
+Bugs:
+- Shop will not open
+- Save method in evolution needs teaking
+- money must be implemented into battle
+
+*****************************************Version 4.4.8******************************
+Methods Changed by Zain
+BattleModeController 
+- Updated variable names (including FXML Id) 
+- Fixed line spacing 
+GeneticSequenceController 
+-Fixed line spacing
+-added comments
+EvolutionController 
+- Fixed line spacing
+- added comments
+*****************************************Version 4.5.8******************************
+Methods Changed by Zain
+shopController - I got the shop to work and to delete/detect extra pokemon in party
+player - I added a few methods such as remove money and remove/add party
+
+Files - some pokemon had along with their file names.txt inside the file, which causes erros
+
+bugs
+- Pokemon dont cost money (items do tho so thats good)
+-battle, genetics, and evlution dont work 
+(I updated the variable names in the code but not in the fxml)
+- Shop is kinda buggy with error text
+- Items arnt stored or usable
+*****************************************Version 5.5.8******************************
+Methods Changed by zain
+Shop - works, items dont work. I made it so certain pokemon cost more
+Party - added a system to change pokemon in onces party
+lvlcontroler - made it so you can fight the pokemon you bread
+battlecontroler - made it so health does not change, pp does go down
+ - player gets money and xp relative to the lvl of the pokemon they face

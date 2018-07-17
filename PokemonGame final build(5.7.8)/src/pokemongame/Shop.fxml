@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="579.0" styleClass="shop-background" stylesheets="@Shop.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokemongame.ShopController">
+   <children>
+      <Text layoutX="191.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title-text" text="Shop" textAlignment="CENTER" wrappingWidth="219.259765625">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Text>
+      <GridPane fx:id="grid_layout" layoutX="76.0" layoutY="92.0" prefHeight="270.0" prefWidth="468.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" prefHeight="37.0" prefWidth="301.0" styleClass="sub-title" stylesheets="@Shop.css" text="Purchase List" underline="true">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="pokelabel_label1" alignment="CENTER" prefHeight="17.0" prefWidth="558.0" styleClass="money-text" stylesheets="@Shop.css" text="Squirtle:  $100(F)" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="pokelabel_label2" alignment="CENTER" prefHeight="17.0" prefWidth="523.0" styleClass="money-text" text="Vineasour:  $150(M)" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="pokelabel_label3" alignment="CENTER" prefHeight="17.0" prefWidth="528.0" styleClass="money-text" text="Charmander:  $200(M)" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="pokelabel_label4" alignment="CENTER" prefHeight="17.0" prefWidth="675.0" styleClass="money-text" text="Lapras:  $300(M)" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="pokelabel_label5" alignment="CENTER" prefHeight="17.0" prefWidth="412.0" styleClass="money-text" text="Blazaken:  $400(M)" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="pokelabel_label6" alignment="CENTER" prefHeight="17.0" prefWidth="438.0" styleClass="money-text" text="Lucario:  $500(M)" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="pokelabel_label7" alignment="CENTER" prefHeight="17.0" prefWidth="486.0" styleClass="money-text" text="Groudon:  $1000(M)" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="pokelabel_label8" alignment="CENTER" prefHeight="17.0" prefWidth="411.0" styleClass="money-text" text="Mew:  $2000(M)" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="pokeCheck_CheckBox1" mnemonicParsing="false" styleClass="box-face2" text="Select to Buy" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <CheckBox fx:id="pokeCheck_CheckBox2" mnemonicParsing="false" styleClass="box-face2" text="Select to Buy" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <CheckBox fx:id="pokeCheck_CheckBox3" mnemonicParsing="false" styleClass="box-face2" text="Select to Buy" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <CheckBox fx:id="pokeCheck_CheckBox4" mnemonicParsing="false" styleClass="box-face2" text="Select to Buy" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <CheckBox fx:id="pokeCheck_CheckBox5" mnemonicParsing="false" styleClass="box-face2" text="Select to Buy" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <CheckBox fx:id="pokeCheck_CheckBox6" mnemonicParsing="false" styleClass="box-face2" text="Select to Buy" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <CheckBox fx:id="pokeCheck_CheckBox7" mnemonicParsing="false" styleClass="box-face2" text="Select to Buy" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <CheckBox fx:id="pokeCheck_CheckBox8" mnemonicParsing="false" styleClass="box-face2" text="Select to Buy" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            
+         </children>
+      </GridPane>
+      <Button fx:id="checkout_button" layoutX="410.0" layoutY="67.0" mnemonicParsing="false" onAction="#purchase" prefHeight="25.0" prefWidth="130.0" styleClass="box-face" stylesheets="@Shop.css" text="Checkout" />
+      <Button layoutX="492.0" layoutY="361.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="52.0" styleClass="box-face" stylesheets="@Shop.css" text="Exit" />
+      <Label fx:id="checkout_label" layoutX="410.0" layoutY="24.0" prefHeight="30.0" prefWidth="130.0" styleClass="money-text" stylesheets="@Shop.css" />
+   </children>
+</AnchorPane>

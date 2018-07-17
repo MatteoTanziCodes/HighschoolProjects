@@ -1,0 +1,17 @@
+//Stats
+Name;Bulbasaur;Health;600;Xp;0;Lvl;0;Evolution;0;Cooldown;0;Power;2;Defense;10;Accuracy;2;Fainted;false;fileName;Bulbasaur
+//Moves
+22;2000;21;2000;18;2000;17;2000
+
+//Outline
+Name Health Xp Lvl Evolution Cooldown Power Defense Accuracy Fainted FileName
+move1 move1PP move2 move2PP move3 move3PP move4 move4PP
+
+//Genetic Strings
+B_Type;Fire;R_Type;Fire;Gender;Female;R_Gender;Female;Resistance;Earth;R_Resistance;Earth
+//Genetic Stats
+B_Power;1;R_Power;3;B_Accuracy;1;R_Accuracy;2;B_Defence;5;R_Defence;5
+
+//Outline
+B_Type R_Type Gender R_Gender Resistance R_Resistance
+B_Power R_power B_Accuracy R_Accuracy B_Defence R_Defence

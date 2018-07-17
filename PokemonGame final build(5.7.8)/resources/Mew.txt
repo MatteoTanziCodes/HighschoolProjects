@@ -1,0 +1,17 @@
+//Stats
+Name;Mew;Health;900;Xp;0;Lvl;0;Evolution;0;Cooldown;0;Power;10;Defense;10;Accuracy;10;Fainted;false;fileName;Mew
+//Moves
+17;100;13;100;19;100;6;100
+
+//Outline
+Name Health Xp Lvl Evolution Cooldown Power Defense Accuracy Fainted FileName
+move1 move1PP move2 move2PP move3 move3PP move4 move4PP
+
+//Genetic Strings
+B_Type;Water;R_Type;Fire;Gender;Male;R_Gender;Male;Resistance;Earth;R_Resistance;Earth
+//Genetic Stats
+B_Power;10;R_Power;10;B_Accuracy;10;R_Accuracy;10;B_Defence;10;R_Defence;10
+
+//Outline
+B_Type R_Type Gender R_Gender Resistance R_Resistance
+B_Power R_power B_Accuracy R_Accuracy B_Defence R_Defence

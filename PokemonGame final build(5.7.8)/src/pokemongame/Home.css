@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Jan-2018, 7:46:53 PM
+    Author     : annettetanzi
+*/
+.root{
+    
+}
+.pane-window{  
+   -fx-background-image: url('http://www.villreal.com/img195/nlsrepjhlcopghrqtdhq.png');
+   -fx-background-repeat: stretch;   
+   -fx-background-position: center center;
+}
+.title-text{
+   -fx-text-fill: #ffffff;
+   -fx-font-size: 45pt;
+   -fx-font-family: "Pokemon Solid", sans-serif;
+   -fx-stroke-width: 8px;
+   -fx-stroke: #ffffff; 
+}
+.font-face {
+  -fx-font-family: "Pokemon GB", sans-serif;
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 10px;
+}
+.box-face{
+    -fx-font-family: "Pokemon GB" , sans-serif;
+    -fx-font-size: 6pt;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;  
+}
+.pane-window2{  
+   -fx-background-image: url('https://orig00.deviantart.net/257d/f/2014/293/5/5/pokemon_x_and_y_battle_background_2_by_phoenixoflight92-d83jrvo.jpg');
+   -fx-background-repeat: stretch;   
+   -fx-background-position: center center;
+}
+.title-text2{
+   -fx-text-fill: #ffffff;
+   -fx-font-size: 45pt;
+   -fx-font-family: "Pokemon Solid", sans-serif;
+   -fx-stroke-width: 14px;
+   -fx-stroke: #000000;   
+}
+.menu-boxes{
+    -fx-background-color: #ffffff;
+    -fx-border-color:  #000000;
+    -fx-border-radius: 60%;
+    -fx-border-width: 2px;
+    -fx-font-family: "Pokemon GB" , sans-serif;
+    -fx-font-size: 8px;
+    -fx-text-fill: #000000;
+}

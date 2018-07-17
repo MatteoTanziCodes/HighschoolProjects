@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="Anchor-Pane" stylesheets="@PokemonGame.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokemongame.BattleModeController">
+   <children>
+      <Text fx:id="battle_label" layoutX="207.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title-text" text="Battle">
+         <font>
+            <Font size="75.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_Move1" layoutX="67.0" layoutY="264.0" mnemonicParsing="false" onAction="#Move1" prefHeight="39.0" prefWidth="109.0" styleClass="button-1" text="Move1" />
+      <Button fx:id="btn_Move2" layoutX="209.0" layoutY="264.0" mnemonicParsing="false" onAction="#Move2" prefHeight="39.0" prefWidth="109.0" styleClass="button-1" text="Move2" />
+      <Button fx:id="btn_Move3" layoutX="67.0" layoutY="316.0" mnemonicParsing="false" onAction="#Move3" prefHeight="39.0" prefWidth="109.0" styleClass="button-1" text="Move3" />
+      <Button fx:id="btn_Move4" layoutX="209.0" layoutY="316.0" mnemonicParsing="false" onAction="#Move4" prefHeight="39.0" prefWidth="109.0" styleClass="button-1" text="Move4" />
+      <Button fx:id="btn_Back" layoutX="354.0" layoutY="316.0" mnemonicParsing="false" onAction="#back" prefHeight="39.0" prefWidth="100.0" styleClass="button-4" text="Run" />
+      <ProgressBar fx:id="bar_Plyr" layoutX="60.0" layoutY="193.0" prefWidth="200.0" progress="0.0" />
+      <ProgressBar fx:id="bar_Boss" layoutX="347.0" layoutY="193.0" prefWidth="200.0" progress="0.0" />
+      <TextArea fx:id="txt_Plyr" layoutX="60.0" layoutY="110.0" prefHeight="56.0" prefWidth="200.0" styleClass="box-face" stylesheets="@PokemonGame.css" />
+      <TextArea fx:id="txt_Boss" layoutX="347.0" layoutY="110.0" prefHeight="56.0" prefWidth="200.0" styleClass="box-face" stylesheets="@PokemonGame.css" />
+      <Label fx:id="lbl_Plyr" layoutX="60.0" layoutY="220.0" styleClass="font-face" stylesheets="@PokemonGame.css" text="Player" />
+      <Label fx:id="lbl_Boss" layoutX="348.0" layoutY="220.0" styleClass="font-face" stylesheets="@PokemonGame.css" text="Enemy" />
+      <Label fx:id="lbl_PlyrHealth" layoutX="60.0" layoutY="166.0" prefHeight="27.0" prefWidth="200.0" styleClass="font-face" stylesheets="@PokemonGame.css" text="Label" />
+      <Label fx:id="lbl_BossHealth" layoutX="347.0" layoutY="166.0" prefHeight="27.0" prefWidth="200.0" styleClass="font-face" stylesheets="@PokemonGame.css" text="Label" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="CROSSHAIR" />
+   </cursor>
+</AnchorPane>
