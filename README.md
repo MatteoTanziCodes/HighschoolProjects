@@ -1,4 +1,9 @@
-# HighschoolProjects
+# Pokemon Simulator
+
+Project Build:
+This project uses Java GUI to simulate a desktop pokemon experience.
+
+This project uses an obeject oriented design to model pokemon and their attributes, allowing them to interact and battle on screen
 
 Project Description:
 
